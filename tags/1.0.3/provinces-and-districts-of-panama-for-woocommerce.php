@@ -3,7 +3,7 @@
 /* 
  * Plugin Name: Provinces and Districts of Panama for WooCommerce
  * Description: This plugins allows you to choose the Provinces, Districts and Corregimientos of Panama into the WooCommerce Options.
- * Version: 1.0.4
+ * Version: 1.0.3
  * Author: Yordan Soares
  * Author URI: https://yordansoar.es/
  * Contributors: yordansoares
@@ -11,9 +11,9 @@
  * Text Domain: provinces-and-districts-of-panama-for-woocommerce
  * Domain Path: /languages
  * Requires at least: 4.0 +
- * Tested up to: 5.4
+ * Tested up to: 5.3.2
  * WC requires at least: 3.0.x
- * WC tested up to: 4.0.0
+ * WC tested up to: 3.8.1
 */
 
 // Exit if file is open directly
@@ -45,7 +45,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
     add_filter('woocommerce_states', 'pdpw_pa_provinces');
 
     // Change the order of State and City fields to have more sense with the steps of form
-    function pdpw_change_state_and_city_order($fields) {
+    function smvw_change_state_and_city_order($fields) {
 
       $fields['state']['priority'] = 70;
       $fields['state']['label'] = __( 'Province', 'provinces-and-districts-of-panama-for-woocommerce');
@@ -54,7 +54,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 
       return $fields;
     }
-    add_filter('woocommerce_default_address_fields', 'pdpw_change_state_and_city_order');
+    add_filter('woocommerce_default_address_fields', 'smvw_change_state_and_city_order');
 
     //define('PDPW_ENABLE_POSTCODE', true);
 
