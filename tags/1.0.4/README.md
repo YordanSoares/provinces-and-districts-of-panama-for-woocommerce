@@ -2,8 +2,8 @@
 Contributors: yordansoares
 Tags: panama provinces and districts, provincias y distritos de panama
 Donate link: https://yordansoar.es/
-Requires at least: 5.0
-Tested up to: 5.5
+Requires at least: 4.6
+Tested up to: 5.6
 Requires PHP: 7.0
 Stable tag: 1.0.4
 License: GNU General Public License v3.0
@@ -12,7 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Provinces, Districts and Corregimientos of Panama for WooCommerce.
 
 == Description ==
-This plugins allows you to choose Provinces, Districts and Corregimientos of Panama into the WooCommerce Options.
+This plugin allows you to choose the **Provinces, Districts and Corregimientos of Panama** as a dropdown menu in the **WooCommerce address forms**. It also makes filterable the **Province** and **Districts-Corregimiento** fields to enhance the **user experience**.
+
+Additionally it adds the **Provinces** to the **Shipping Zones** (The Districts and Corregimientos are not compatible with this area).
 
 == Installation ==
 = Automatic installation =
