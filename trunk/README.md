@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Provinces, Districts and Corregimientos of Panama for WooCommerce.
 
 == Description ==
-This plugin allows you to choose the **Provinces, Districts and Corregimientos of Panama** as a dropdown menu in the **WooCommerce address forms**. It also makes filterable the **Province** and **Districts-Corregimiento** fields to enhance the **user experience**.
+This plugin allows you to choose the **Provinces, Districts and Corregimientos of Panama** as a dropdown menu in the **WooCommerce address forms**. It also makes filterable the **Province** and **Districts - Corregimiento** fields to enhance the **user experience**.
 
 Additionally it adds the **Provinces** to the **Shipping Zones** (The Districts and Corregimientos are not compatible with this area).
 
