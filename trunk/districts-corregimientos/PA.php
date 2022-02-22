@@ -14,6 +14,7 @@
  global $corregimientos;
 
 $corregimientos['PA'] = array(
+	// Provincia de Bocas del Toro
 	'PAN-1' => array(		
 		'Almirante - Almirante',
 		'Almirante - Barriada Guaymí',
@@ -46,6 +47,7 @@ $corregimientos['PA'] = array(
 		'Chiriquí Grande - Punta Robalo',
 		'Chiriquí Grande - Rambala'
 	),
+	// Provincia de Coclé
 	'PAN-2' => array(
 		'Aguadulce - Aguadulce',
 		'Aguadulce - Barrios Unidos',
@@ -95,6 +97,7 @@ $corregimientos['PA'] = array(
 		'Penonomé - Toabré',
 		'Penonomé - Tulú'
 	),
+	// Provincia de Colón
 	'PAN-3' => array(
 		'Colón - Barrio Norte',
 		'Colón - Barrio Sur',
@@ -140,6 +143,7 @@ $corregimientos['PA'] = array(
 		'Omar Torrijos Herrera - San Juan de Turbe',
 		'Omar Torrijos Herrera - Nueva Esperanza'
 	),
+	// Provincia de Chiriquí
 	'PAN-4' => array(
 		'Alanje - Alanje',
 		'Alanje - Divalá',
@@ -245,6 +249,7 @@ $corregimientos['PA'] = array(
 		'Tolé - Tolé',
 		'Tolé - Veladero'
 	),
+	// Provincia del Darién
 	'PAN-5' => array(
 		'Chepigana - Camogantí',
 		'Chepigana - Chepigana',
@@ -273,6 +278,7 @@ $corregimientos['PA'] = array(
 		'Santa Fe - Santa Fe',
 		'Santa Fe - Zapallal'
 	),
+	// Provincia de Herrera
 	'PAN-6' => array(
 		'Chitré - Chitré',
 		'Chitré - La Arena',
@@ -324,6 +330,7 @@ $corregimientos['PA'] = array(
 		'Santa María - Los Canelos',
 		'Santa María - Santa María'
 	),
+	// Provincia de Los Santos
 	'PAN-7' => array(
 		'Guararé - El Espinal',
 		'Guararé - El Hato',
@@ -407,6 +414,7 @@ $corregimientos['PA'] = array(
 		'Tonosí - La Tronosa',
 		'Tonosí - Tonosí'
 			),
+	// Provincia de Panamá
 	'PAN-8' => array(
 		'Balboa - La Ensenada',
 		'Balboa - La Esmeralda',
@@ -466,6 +474,7 @@ $corregimientos['PA'] = array(
 		'Taboga - Otoque Oriente',
 		'Taboga - Taboga'
 	),
+	// Provincia de Panamá Oeste
 	'PAN-9' => array(
 		'Arraiján - Arraiján',
 		'Arraiján - Burunga',
@@ -527,6 +536,7 @@ $corregimientos['PA'] = array(
 		'San Carlos - San Carlos',
 		'San Carlos - San José'
 	),
+	// Provincia de Veraguas
 	'PAN-10' => array(
 		'Atalaya - Atalaya',
 		'Atalaya - El Barrito',
@@ -634,6 +644,7 @@ $corregimientos['PA'] = array(
 		'Soná - Rodeo Viejo',
 		'Soná - Soná'
 	),
+	// Comarca Emberá-Wounaan
 	'PAN-EW' => array(
 		'Cémaco - Cirilo Guaynora',
 		'Cémaco - Lajas Blancas',
@@ -641,12 +652,14 @@ $corregimientos['PA'] = array(
 		'Sambú - Jingurudó',
 		'Sambú - Río Sabalo'
 	),
+	// Comarca Guna Yala
 	'PAN-KY' => array(
 		'Ailigandí',
 		'Narganá',
 		'Puerto Obaldía',
 		'Tubualá',
 	),
+	// Comarca Ngäbe-Buglé
 	'PAN-NB' => array(
 		'Besikó - Boca de Balsa',
 		'Besikó - Cerro Banco',
